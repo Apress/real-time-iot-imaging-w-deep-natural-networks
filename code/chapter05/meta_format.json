@@ -1,0 +1,50 @@
+{
+    "sessionId": "9d355e0e-218b-4efa-bf36-9c8b13a7df42",
+    ...
+    "input": "show me only cats",
+    "asrTokens": [
+        [
+            {
+                "value": "show",
+                "confidence": 1,
+                "rangeStart": 0,
+                "rangeEnd": 4,
+                "time": {
+                    "start": 0,
+                    "end": 0.98999995
+                }
+            },
+            ...
+        ]
+    ],
+    "asrConfidence": 0.9476952,
+    "intent": {
+        "intentName": "hellonico:highlight",
+        "confidenceScore": 1
+    },
+    "slots": [
+        {
+            "rawValue": "cats",
+            "value": {
+                "kind": "Custom",
+                "value": "cats"
+            },
+            "alternatives": [],
+            "range": {
+                "start": 13,
+                "end": 17
+            },
+            "entity": "string",
+            "slotName": "object",
+            "confidenceScore": 0.80663073
+        }
+    ],
+    "alternatives": [
+        {
+            "intentName": "hellonico:hello",
+            "confidenceScore": 0.28305322,
+            "slots": []
+        },
+       ... 
+    ]
+}

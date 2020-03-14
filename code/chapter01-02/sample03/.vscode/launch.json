@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Yolo",
+            "request": "launch",
+            "mainClass": "hello.Yolo",
+            "projectName": "sample03"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SelectedHaar",
+            "request": "launch",
+            "mainClass": "hello.SelectedHaar",
+            "projectName": "sample03"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BluntHaar",
+            "request": "launch",
+            "mainClass": "hello.BluntHaar",
+            "projectName": "sample03"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FeatureDetection",
+            "request": "launch",
+            "mainClass": "hello.FeatureDetection",
+            "projectName": "sample03"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SURFDetection",
+            "request": "launch",
+            "mainClass": "hello.SURFDetection",
+            "projectName": "sample03"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloCv",
+            "request": "launch",
+            "mainClass": "hello.HelloCv",
+            "projectName": "sample03"
+        }
+    ]
+}

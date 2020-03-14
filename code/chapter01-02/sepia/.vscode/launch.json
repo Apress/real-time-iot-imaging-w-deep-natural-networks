@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloCv",
+            "request": "launch",
+            "mainClass": "hello.HelloCv",
+            "projectName": "sepia"
+        }
+    ]
+}

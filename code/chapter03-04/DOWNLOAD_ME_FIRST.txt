@@ -1,0 +1,5 @@
+
+Download and extract the zip file containing the trained networks from:
+http://www.hellonico.info/apress/NETSANDCASCADES.zip
+
+The files should be extracted directly here.

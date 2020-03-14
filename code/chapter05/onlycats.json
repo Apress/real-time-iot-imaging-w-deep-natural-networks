@@ -1,0 +1,84 @@
+{
+    "sessionId": "9d355e0e-218b-4efa-bf36-9c8b13a7df42",
+    "customData": null,
+    "siteId": "default",
+    "input": "show me only cats",
+    "asrTokens": [
+        [
+            {
+                "value": "show",
+                "confidence": 1,
+                "rangeStart": 0,
+                "rangeEnd": 4,
+                "time": {
+                    "start": 0,
+                    "end": 0.98999995
+                }
+            },
+            {
+                "value": "me",
+                "confidence": 1,
+                "rangeStart": 5,
+                "rangeEnd": 7,
+                "time": {
+                    "start": 0.98999995,
+                    "end": 1.26
+                }
+            },
+            {
+                "value": "only",
+                "confidence": 1,
+                "rangeStart": 8,
+                "rangeEnd": 12,
+                "time": {
+                    "start": 1.26,
+                    "end": 1.56
+                }
+            },
+            {
+                "value": "cats",
+                "confidence": 0.80663073,
+                "rangeStart": 13,
+                "rangeEnd": 17,
+                "time": {
+                    "start": 1.56,
+                    "end": 2.2218225
+                }
+            }
+        ]
+    ],
+    "asrConfidence": 0.9476952,
+    "intent": {
+        "intentName": "hellonico:highlight",
+        "confidenceScore": 1
+    },
+    "slots": [
+        {
+            "rawValue": "cats",
+            "value": {
+                "kind": "Custom",
+                "value": "cats"
+            },
+            "alternatives": [],
+            "range": {
+                "start": 13,
+                "end": 17
+            },
+            "entity": "string",
+            "slotName": "object",
+            "confidenceScore": 0.80663073
+        }
+    ],
+    "alternatives": [
+        {
+            "intentName": "hellonico:hello",
+            "confidenceScore": 0.28305322,
+            "slots": []
+        },
+        {
+            "intentName": null,
+            "confidenceScore": 0.26988652,
+            "slots": []
+        }
+    ]
+}

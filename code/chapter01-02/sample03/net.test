@@ -1,0 +1,251 @@
+digraph G {
+	"cluster_71" [label="{conv_0\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_0\nBatchNorm\n | relu_0\nReLU\noutput: 1 x 32 x 416 x 416\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_70" [label="{conv_1\nConvolution\nkernel_size : 3\lstride : 2\lpad : 1\l | bn_1\nBatchNorm\n | relu_1\nReLU\noutput: 1 x 64 x 208 x 208\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_69" [label="{conv_2\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_2\nBatchNorm\n | relu_2\nReLU\noutput: 1 x 32 x 208 x 208\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_68" [label="{conv_3\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_3\nBatchNorm\n | relu_3\nReLU\noutput: 1 x 64 x 208 x 208\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_4" [label="shortcut_4\nEltwise\noutput: 1 x 64 x 208 x 208\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_67" [label="{conv_5\nConvolution\nkernel_size : 3\lstride : 2\lpad : 1\l | bn_5\nBatchNorm\n | relu_5\nReLU\noutput: 1 x 128 x 104 x 104\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_66" [label="{conv_6\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_6\nBatchNorm\n | relu_6\nReLU\noutput: 1 x 64 x 104 x 104\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_65" [label="{conv_7\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_7\nBatchNorm\n | relu_7\nReLU\noutput: 1 x 128 x 104 x 104\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_8" [label="shortcut_8\nEltwise\noutput: 1 x 128 x 104 x 104\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_64" [label="{conv_9\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_9\nBatchNorm\n | relu_9\nReLU\noutput: 1 x 64 x 104 x 104\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_63" [label="{conv_10\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_10\nBatchNorm\n | relu_10\nReLU\noutput: 1 x 128 x 104 x 104\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_11" [label="shortcut_11\nEltwise\noutput: 1 x 128 x 104 x 104\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_62" [label="{conv_12\nConvolution\nkernel_size : 3\lstride : 2\lpad : 1\l | bn_12\nBatchNorm\n | relu_12\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_61" [label="{conv_13\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_13\nBatchNorm\n | relu_13\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_60" [label="{conv_14\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_14\nBatchNorm\n | relu_14\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_15" [label="shortcut_15\nEltwise\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_59" [label="{conv_16\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_16\nBatchNorm\n | relu_16\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_58" [label="{conv_17\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_17\nBatchNorm\n | relu_17\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_18" [label="shortcut_18\nEltwise\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_57" [label="{conv_19\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_19\nBatchNorm\n | relu_19\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_56" [label="{conv_20\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_20\nBatchNorm\n | relu_20\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_21" [label="shortcut_21\nEltwise\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_55" [label="{conv_22\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_22\nBatchNorm\n | relu_22\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_54" [label="{conv_23\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_23\nBatchNorm\n | relu_23\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_24" [label="shortcut_24\nEltwise\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_53" [label="{conv_25\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_25\nBatchNorm\n | relu_25\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_52" [label="{conv_26\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_26\nBatchNorm\n | relu_26\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_27" [label="shortcut_27\nEltwise\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_51" [label="{conv_28\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_28\nBatchNorm\n | relu_28\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_50" [label="{conv_29\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_29\nBatchNorm\n | relu_29\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_30" [label="shortcut_30\nEltwise\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_49" [label="{conv_31\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_31\nBatchNorm\n | relu_31\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_48" [label="{conv_32\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_32\nBatchNorm\n | relu_32\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_33" [label="shortcut_33\nEltwise\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_47" [label="{conv_34\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_34\nBatchNorm\n | relu_34\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_46" [label="{conv_35\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_35\nBatchNorm\n | relu_35\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_36" [label="shortcut_36\nEltwise\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_45" [label="{conv_37\nConvolution\nkernel_size : 3\lstride : 2\lpad : 1\l | bn_37\nBatchNorm\n | relu_37\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_44" [label="{conv_38\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_38\nBatchNorm\n | relu_38\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_43" [label="{conv_39\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_39\nBatchNorm\n | relu_39\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_40" [label="shortcut_40\nEltwise\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_42" [label="{conv_41\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_41\nBatchNorm\n | relu_41\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_41" [label="{conv_42\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_42\nBatchNorm\n | relu_42\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_43" [label="shortcut_43\nEltwise\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_40" [label="{conv_44\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_44\nBatchNorm\n | relu_44\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_39" [label="{conv_45\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_45\nBatchNorm\n | relu_45\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_46" [label="shortcut_46\nEltwise\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_38" [label="{conv_47\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_47\nBatchNorm\n | relu_47\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_37" [label="{conv_48\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_48\nBatchNorm\n | relu_48\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_49" [label="shortcut_49\nEltwise\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_36" [label="{conv_50\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_50\nBatchNorm\n | relu_50\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_35" [label="{conv_51\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_51\nBatchNorm\n | relu_51\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_52" [label="shortcut_52\nEltwise\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_34" [label="{conv_53\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_53\nBatchNorm\n | relu_53\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_33" [label="{conv_54\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_54\nBatchNorm\n | relu_54\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_55" [label="shortcut_55\nEltwise\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_32" [label="{conv_56\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_56\nBatchNorm\n | relu_56\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_31" [label="{conv_57\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_57\nBatchNorm\n | relu_57\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_58" [label="shortcut_58\nEltwise\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_30" [label="{conv_59\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_59\nBatchNorm\n | relu_59\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_29" [label="{conv_60\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_60\nBatchNorm\n | relu_60\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_61" [label="shortcut_61\nEltwise\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_28" [label="{conv_62\nConvolution\nkernel_size : 3\lstride : 2\lpad : 1\l | bn_62\nBatchNorm\n | relu_62\nReLU\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_27" [label="{conv_63\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_63\nBatchNorm\n | relu_63\nReLU\noutput: 1 x 512 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_26" [label="{conv_64\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_64\nBatchNorm\n | relu_64\nReLU\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_65" [label="shortcut_65\nEltwise\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_25" [label="{conv_66\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_66\nBatchNorm\n | relu_66\nReLU\noutput: 1 x 512 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_24" [label="{conv_67\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_67\nBatchNorm\n | relu_67\nReLU\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_68" [label="shortcut_68\nEltwise\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_23" [label="{conv_69\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_69\nBatchNorm\n | relu_69\nReLU\noutput: 1 x 512 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_22" [label="{conv_70\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_70\nBatchNorm\n | relu_70\nReLU\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_71" [label="shortcut_71\nEltwise\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_21" [label="{conv_72\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_72\nBatchNorm\n | relu_72\nReLU\noutput: 1 x 512 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_20" [label="{conv_73\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_73\nBatchNorm\n | relu_73\nReLU\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"shortcut_74" [label="shortcut_74\nEltwise\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_19" [label="{conv_75\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_75\nBatchNorm\n | relu_75\nReLU\noutput: 1 x 512 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_18" [label="{conv_76\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_76\nBatchNorm\n | relu_76\nReLU\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_17" [label="{conv_77\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_77\nBatchNorm\n | relu_77\nReLU\noutput: 1 x 512 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_16" [label="{conv_78\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_78\nBatchNorm\n | relu_78\nReLU\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_15" [label="{conv_79\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_79\nBatchNorm\n | relu_79\nReLU\noutput: 1 x 512 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_14" [label="{conv_80\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_80\nBatchNorm\n | relu_80\nReLU\noutput: 1 x 1024 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"conv_81" [label="conv_81\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\loutput: 1 x 255 x 13 x 13\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"permute_82" [label="permute_82\nPermute\noutput: 1 x 13 x 13 x 255\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"yolo_82" [label="yolo_82\nRegion\noutput: 507 x 85\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"identity_83" [label="identity_83\nIdentity\noutput: 1 x 512 x 13 x 13\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_13" [label="{conv_84\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_84\nBatchNorm\n | relu_84\nReLU\noutput: 1 x 256 x 13 x 13\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"upsample_85" [label="upsample_85\nResize\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"concat_86" [label="concat_86\nConcat\noutput: 1 x 768 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_12" [label="{conv_87\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_87\nBatchNorm\n | relu_87\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_11" [label="{conv_88\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_88\nBatchNorm\n | relu_88\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_10" [label="{conv_89\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_89\nBatchNorm\n | relu_89\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_9" [label="{conv_90\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_90\nBatchNorm\n | relu_90\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_8" [label="{conv_91\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_91\nBatchNorm\n | relu_91\nReLU\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_7" [label="{conv_92\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_92\nBatchNorm\n | relu_92\nReLU\noutput: 1 x 512 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"conv_93" [label="conv_93\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\loutput: 1 x 255 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"permute_94" [label="permute_94\nPermute\noutput: 1 x 26 x 26 x 255\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"yolo_94" [label="yolo_94\nRegion\noutput: 2028 x 85\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"identity_95" [label="identity_95\nIdentity\noutput: 1 x 256 x 26 x 26\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_6" [label="{conv_96\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_96\nBatchNorm\n | relu_96\nReLU\noutput: 1 x 128 x 26 x 26\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"upsample_97" [label="upsample_97\nResize\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"concat_98" [label="concat_98\nConcat\noutput: 1 x 384 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"cluster_5" [label="{conv_99\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_99\nBatchNorm\n | relu_99\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_4" [label="{conv_100\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_100\nBatchNorm\n | relu_100\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_3" [label="{conv_101\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_101\nBatchNorm\n | relu_101\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_2" [label="{conv_102\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_102\nBatchNorm\n | relu_102\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_1" [label="{conv_103\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\l | bn_103\nBatchNorm\n | relu_103\nReLU\noutput: 1 x 128 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"cluster_0" [label="{conv_104\nConvolution\nkernel_size : 3\lstride : 1\lpad : 1\l | bn_104\nBatchNorm\n | relu_104\nReLU\noutput: 1 x 256 x 52 x 52\lOCV/CPU\n }" fillcolor="#ffffb3" style=filled shape=record]
+	"conv_105" [label="conv_105\nConvolution\nkernel_size : 1\lstride : 1\lpad : 0\loutput: 1 x 255 x 52 x 52\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"permute_106" [label="permute_106\nPermute\noutput: 1 x 52 x 52 x 255\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+	"yolo_106" [label="yolo_106\nRegion\noutput: 8112 x 85\lOCV/CPU\n" fillcolor="#ffffb3" style=filled shape=box]
+
+	"_input" -> "cluster_71"
+	"_input" -> "yolo_82"
+	"_input" -> "yolo_94"
+	"_input" -> "yolo_106"
+	"cluster_71" -> "cluster_70"
+	"cluster_70" -> "cluster_69"
+	"cluster_70" -> "shortcut_4"
+	"cluster_69" -> "cluster_68"
+	"cluster_68" -> "shortcut_4"
+	"shortcut_4" -> "cluster_67"
+	"cluster_67" -> "cluster_66"
+	"cluster_67" -> "shortcut_8"
+	"cluster_66" -> "cluster_65"
+	"cluster_65" -> "shortcut_8"
+	"shortcut_8" -> "cluster_64"
+	"shortcut_8" -> "shortcut_11"
+	"cluster_64" -> "cluster_63"
+	"cluster_63" -> "shortcut_11"
+	"shortcut_11" -> "cluster_62"
+	"cluster_62" -> "cluster_61"
+	"cluster_62" -> "shortcut_15"
+	"cluster_61" -> "cluster_60"
+	"cluster_60" -> "shortcut_15"
+	"shortcut_15" -> "cluster_59"
+	"shortcut_15" -> "shortcut_18"
+	"cluster_59" -> "cluster_58"
+	"cluster_58" -> "shortcut_18"
+	"shortcut_18" -> "cluster_57"
+	"shortcut_18" -> "shortcut_21"
+	"cluster_57" -> "cluster_56"
+	"cluster_56" -> "shortcut_21"
+	"shortcut_21" -> "cluster_55"
+	"shortcut_21" -> "shortcut_24"
+	"cluster_55" -> "cluster_54"
+	"cluster_54" -> "shortcut_24"
+	"shortcut_24" -> "cluster_53"
+	"shortcut_24" -> "shortcut_27"
+	"cluster_53" -> "cluster_52"
+	"cluster_52" -> "shortcut_27"
+	"shortcut_27" -> "cluster_51"
+	"shortcut_27" -> "shortcut_30"
+	"cluster_51" -> "cluster_50"
+	"cluster_50" -> "shortcut_30"
+	"shortcut_30" -> "cluster_49"
+	"shortcut_30" -> "shortcut_33"
+	"cluster_49" -> "cluster_48"
+	"cluster_48" -> "shortcut_33"
+	"shortcut_33" -> "cluster_47"
+	"shortcut_33" -> "shortcut_36"
+	"cluster_47" -> "cluster_46"
+	"cluster_46" -> "shortcut_36"
+	"shortcut_36" -> "cluster_45"
+	"shortcut_36" -> "concat_98"
+	"cluster_45" -> "cluster_44"
+	"cluster_45" -> "shortcut_40"
+	"cluster_44" -> "cluster_43"
+	"cluster_43" -> "shortcut_40"
+	"shortcut_40" -> "cluster_42"
+	"shortcut_40" -> "shortcut_43"
+	"cluster_42" -> "cluster_41"
+	"cluster_41" -> "shortcut_43"
+	"shortcut_43" -> "cluster_40"
+	"shortcut_43" -> "shortcut_46"
+	"cluster_40" -> "cluster_39"
+	"cluster_39" -> "shortcut_46"
+	"shortcut_46" -> "cluster_38"
+	"shortcut_46" -> "shortcut_49"
+	"cluster_38" -> "cluster_37"
+	"cluster_37" -> "shortcut_49"
+	"shortcut_49" -> "cluster_36"
+	"shortcut_49" -> "shortcut_52"
+	"cluster_36" -> "cluster_35"
+	"cluster_35" -> "shortcut_52"
+	"shortcut_52" -> "cluster_34"
+	"shortcut_52" -> "shortcut_55"
+	"cluster_34" -> "cluster_33"
+	"cluster_33" -> "shortcut_55"
+	"shortcut_55" -> "cluster_32"
+	"shortcut_55" -> "shortcut_58"
+	"cluster_32" -> "cluster_31"
+	"cluster_31" -> "shortcut_58"
+	"shortcut_58" -> "cluster_30"
+	"shortcut_58" -> "shortcut_61"
+	"cluster_30" -> "cluster_29"
+	"cluster_29" -> "shortcut_61"
+	"shortcut_61" -> "cluster_28"
+	"shortcut_61" -> "concat_86"
+	"cluster_28" -> "cluster_27"
+	"cluster_28" -> "shortcut_65"
+	"cluster_27" -> "cluster_26"
+	"cluster_26" -> "shortcut_65"
+	"shortcut_65" -> "cluster_25"
+	"shortcut_65" -> "shortcut_68"
+	"cluster_25" -> "cluster_24"
+	"cluster_24" -> "shortcut_68"
+	"shortcut_68" -> "cluster_23"
+	"shortcut_68" -> "shortcut_71"
+	"cluster_23" -> "cluster_22"
+	"cluster_22" -> "shortcut_71"
+	"shortcut_71" -> "cluster_21"
+	"shortcut_71" -> "shortcut_74"
+	"cluster_21" -> "cluster_20"
+	"cluster_20" -> "shortcut_74"
+	"shortcut_74" -> "cluster_19"
+	"cluster_19" -> "cluster_18"
+	"cluster_18" -> "cluster_17"
+	"cluster_17" -> "cluster_16"
+	"cluster_16" -> "cluster_15"
+	"cluster_15" -> "cluster_14"
+	"cluster_15" -> "identity_83"
+	"cluster_14" -> "conv_81"
+	"conv_81" -> "permute_82"
+	"permute_82" -> "yolo_82"
+	"identity_83" -> "cluster_13"
+	"cluster_13" -> "upsample_85"
+	"upsample_85" -> "concat_86"
+	"concat_86" -> "cluster_12"
+	"cluster_12" -> "cluster_11"
+	"cluster_11" -> "cluster_10"
+	"cluster_10" -> "cluster_9"
+	"cluster_9" -> "cluster_8"
+	"cluster_8" -> "cluster_7"
+	"cluster_8" -> "identity_95"
+	"cluster_7" -> "conv_93"
+	"conv_93" -> "permute_94"
+	"permute_94" -> "yolo_94"
+	"identity_95" -> "cluster_6"
+	"cluster_6" -> "upsample_97"
+	"upsample_97" -> "concat_98"
+	"concat_98" -> "cluster_5"
+	"cluster_5" -> "cluster_4"
+	"cluster_4" -> "cluster_3"
+	"cluster_3" -> "cluster_2"
+	"cluster_2" -> "cluster_1"
+	"cluster_1" -> "cluster_0"
+	"cluster_0" -> "conv_105"
+	"conv_105" -> "permute_106"
+	"permute_106" -> "yolo_106"
+}

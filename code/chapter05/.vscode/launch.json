@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sub0",
+            "request": "launch",
+            "mainClass": "practice.Sub0",
+            "projectName": "chapter05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JSONFun",
+            "request": "launch",
+            "mainClass": "practice.JSONFun",
+            "projectName": "chapter05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sub",
+            "request": "launch",
+            "mainClass": "practice.Sub",
+            "projectName": "chapter05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Consumer",
+            "request": "launch",
+            "mainClass": "practice.Consumer",
+            "projectName": "chapter05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MqttZero",
+            "request": "launch",
+            "mainClass": "practice.MqttZero",
+            "projectName": "chapter05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "practice.Client",
+            "projectName": "chapter05"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Consumer",
+            "request": "launch",
+            "mainClass": "Consumer",
+            "projectName": "mqtt-sample-code"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "mqtt-sample-code"
+        }
+    ]
+}

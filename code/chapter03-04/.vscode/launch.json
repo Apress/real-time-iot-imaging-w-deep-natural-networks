@@ -1,0 +1,81 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DetectBackground",
+            "request": "launch",
+            "mainClass": "hello.DetectBackground",
+            "projectName": "opencv-java-template"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DetectByYolo",
+            "request": "launch",
+            "mainClass": "hello.DetectByYolo",
+            "projectName": "opencv-java-template"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DetectByTemplate",
+            "request": "launch",
+            "mainClass": "hello.DetectByTemplate",
+            "projectName": "opencv-java-template"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DetectWithHaar",
+            "request": "launch",
+            "mainClass": "hello.DetectWithHaar",
+            "projectName": "opencv-java-template"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DetectContours",
+            "request": "launch",
+            "mainClass": "hello.DetectContours",
+            "projectName": "opencv-java-template"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DetectByColor",
+            "request": "launch",
+            "mainClass": "hello.DetectByColor",
+            "projectName": "opencv-java-template"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WebcamWithFilters",
+            "request": "launch",
+            "mainClass": "hello.WebcamWithFilters",
+            "projectName": "opencv-java-template"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Webcam2",
+            "request": "launch",
+            "mainClass": "hello.Webcam2",
+            "projectName": "opencv-java-template"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Webcam",
+            "request": "launch",
+            "mainClass": "hello.Webcam",
+            "projectName": "opencv-java-template"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Camera",
+            "request": "launch",
+            "mainClass": "hello.Camera",
+            "projectName": "opencv-java-template"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloCv",
+            "request": "launch",
+            "mainClass": "hello.HelloCv",
+            "projectName": "opencv-java-template"
+        }
+    ]
+}

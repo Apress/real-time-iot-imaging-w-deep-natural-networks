@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SecondFinal",
+            "request": "launch",
+            "mainClass": "SecondFinal",
+            "projectName": "chapter01_9700e80d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Second",
+            "request": "launch",
+            "mainClass": "Second",
+            "projectName": "chapter01_9700e80d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - First",
+            "request": "launch",
+            "mainClass": "First",
+            "projectName": "chapter01_9700e80d"
+        }
+    ]
+}

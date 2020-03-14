@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloCv4",
+            "request": "launch",
+            "mainClass": "hello.HelloCv4",
+            "projectName": "sample01"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloCv3",
+            "request": "launch",
+            "mainClass": "hello.HelloCv3",
+            "projectName": "sample01"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloCv2",
+            "request": "launch",
+            "mainClass": "hello.HelloCv2",
+            "projectName": "sample01"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloCv",
+            "request": "launch",
+            "mainClass": "hello.HelloCv",
+            "projectName": "sample01"
+        }
+    ]
+}
